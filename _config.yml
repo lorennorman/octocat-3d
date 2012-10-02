@@ -1,0 +1,33 @@
+## Uses distinct namespace. Jekyll settings should go at the root level.
+githubiverse:
+    ## Metadata
+    title: "Octocat 3D"
+    author: Loren Norman
+    license: MIT
+    tags: [toys, mimicry, infringement]
+
+    ## Github project parameters.
+    github:
+        base: https://github.com/
+        user: lorennorman
+        repository: octocat-3d
+        branch: master
+
+    ## The names of directories where any images, source and stl files associated with the project can be found.
+    img_dir: img
+    stl_dir: stl
+    src_dir: src
+
+    ## The headline image
+    lead_image: image-for-scale.jpg
+    show_lead_image: true
+
+    ## Optional. When uncommented appends the content of the file defined here to the project description.  Any text in index.md, after the yaml header, will be shown first.
+    ## WARNING: since the github outage on 12th Sep. this feature does not currently work.
+    description_file: README.md
+
+    ## Preview the first STL in the list when the page loads.
+    autoload_stl: true
+
+    ## Show a github "fork me" ribbon in the top righthand corner of the page.
+    show_forkme_ribbon: true
